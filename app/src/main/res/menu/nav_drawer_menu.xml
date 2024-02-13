@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/miBackup"
+        android:icon="@drawable/ic_baseline_download_24"
+        android:title="@string/export_notes"/>
+    <item android:id="@+id/miRestore"
+        android:icon="@drawable/ic_baseline_file_upload_24"
+        android:title="@string/import_notes"/>
+    <item android:id="@+id/miDeleteAll"
+        android:icon="@drawable/ic_baseline_delete_forever_24"
+        android:title="@string/delete_all_notes"/>
+    <item android:id="@+id/miInfo"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/info_on_the_app"/>
+
+</menu>

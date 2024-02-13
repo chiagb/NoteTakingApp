@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NoteTakingApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_in_notes">Search in notes</string>
+    <string name="add_title">Add title</string>
+    <string name="add_your_note_description">Add your note description</string>
+    <string name="add_post">Add Post</string>
+    <string name="delete">Delete</string>
+    <string name="edit_post">Edit</string>
+    <string name="sidemenu">SideMenu</string>
+    <string name="item1">Item1</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="export_notes">Export notes</string>
+    <string name="import_notes">Import Notes</string>
+    <string name="delete_all_notes">Delete all notes</string>
+    <string name="info_on_the_app">Info on the App</string>
+    <string name="close_tags">x</string>
+    <string name="activity">activity description</string>
+    <string name="write_your_activity_description">Write your activity description</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="3dp">
+
+    <CheckBox
+        android:id="@+id/doneCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:paddingHorizontal="5dp"
+        android:textColor="@color/dark_grey"
+        android:buttonTint="@color/lilla" />
+
+    <EditText
+        android:id="@+id/checkboxET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/post_bg"
+        android:hint="@string/write_your_activity_description"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:scrollHorizontally="false"
+        android:paddingHorizontal="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical" />
+
+
+    <TextView
+        android:id="@+id/close_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:text="X"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</LinearLayout>
